@@ -7,10 +7,10 @@ Name:           python-%{pypi_name}
 Version:        %{version}
 Release:        1
 Group:          Development/Python
-Summary:        https://bitbucket.org/pytest-dev/pytest-pep8
+Summary:        pep8 is a tool to check your Python code against some of the style conventions in PEP 8.
 
 License:        MIT
-URL:            https://github.com/pytest-dev/pytest-cov
+URL:            https://bitbucket.org/pytest-dev/pytest-pep8
 Source0:        https://files.pythonhosted.org/packages/1f/1c/c834344ef39381558b047bea1e3005197fa8457c199d58219996ca07defb/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch
 BuildRequires:  python3-devel
@@ -28,7 +28,7 @@ BuildRequires:  python2-setuptools
 
 %if %{with_python2}
 %package -n     python2-%{pypi_name}
-Summary:        py.test plugin for efficiently checking PEP8 compliance
+Summary:        pep8 is a tool to check your Python code against some of the style conventions in PEP 8.
 
 %description -n python2-%{pypi_name}
  py.test plugin for efficiently checking PEP8 compliance every file ending in .py 
