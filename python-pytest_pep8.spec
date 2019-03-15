@@ -1,6 +1,6 @@
 # Created by pyp2rpm-2.0.0
 %global pypi_name pytest-pep8
-%global with_python2 1
+%global with_python2 0
 %define version 1.0.6
 
 Name:           python-%{pypi_name}
