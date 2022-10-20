@@ -5,7 +5,7 @@
 
 Name:           python-%{pypi_name}
 Version:        1.0.6
-Release:        1
+Release:        2
 Group:          Development/Python
 Summary:        pep8 is a tool to check your Python code against some of the style conventions in PEP 8.
 
